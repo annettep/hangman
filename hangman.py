@@ -1,10 +1,23 @@
-# from random_word import RandomWords
-# r = RandomWords()
+ # from random_word import RandomWords
+    # r = RandomWords()
 
-# # Return a single random word
-# word = r.get_random_word()
+    # # # Return a single random word
+    # word = r.get_random_words()
+    # print(word)
 
 def main(): #overall program, need for restarting ability
+   
+    # import requests 
+    # import random
+
+    # word_site = "https://www.mit.edu/~ecprice/wordlist.10000"
+
+    # response = requests.get(word_site)
+    # WORDS = response.content.splitlines()
+    # word = random.choice(WORDS)
+
+    #mode = input("Would you like to play with a single word or a phrase? Enter s for single word or p for phrase")
+
 
     def restart(): #creates function to check if user wants to play again or not
         global count
